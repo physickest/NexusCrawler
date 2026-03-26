@@ -1,0 +1,15 @@
+# 字节码与缓存
+__pycache__/
+*.py[cod]
+
+# 环境与配置 (极其重要，防止泄露代理 IP)
+.env
+config/__pycache__/
+
+# 数据与多模态文件 (太大，不建议进 Git)
+data/results/*.jsonl
+data/downloads/
+data/videos/
+
+# 编译工具 (FFmpeg 没必要进仓库)
+ffmpeg-*/

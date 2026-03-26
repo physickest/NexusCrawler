@@ -1,0 +1,1 @@
+yt-dlp --cookies-from-browser chrome --cookies youtube_session.txt

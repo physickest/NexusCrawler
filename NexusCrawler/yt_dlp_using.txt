@@ -1,0 +1,11 @@
+D:/Python/python.exe -m pip install -U yt-dlp
+
+#AT LAST, I havenot done it myself with f12-application, 26.2.15
+
+"""
+Stop-Process -Name "chrome" -ErrorAction SilentlyContinue
+yt-dlp --cookies-from-browser chrome --cookies youtube_session.txt --skip-download
+
+
+
+"""
