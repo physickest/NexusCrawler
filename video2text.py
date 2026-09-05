@@ -37,6 +37,6 @@ def generate_srt(video_path: str, output_directory: str = "text", model_tier: st
 
 if __name__ == "__main__":
     # Define the path to your target video file here
-    input_video = r"C:\Users\EtherEditor\Desktop\scrape_subtitle\data\downloads\Bandit\【前沿研究课程】第一讲：Introduction to Multi-Armed Bandits.mp4"
+    input_video = r"C:\Users\EtherEditor\Desktop\scrape_subtitle\data\downloads\绿导师原谅你了\01 - Agentic AI 时代的操作系统课：绪论 [2026 南京大学操作系统原理].mp4"
     # Execute the function
     generate_srt(input_video, model_tier="base")
